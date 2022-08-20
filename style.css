@@ -1,0 +1,272 @@
+@font-face{
+    font-family:bjpg;
+    src:url(https://use.typekit.net/af/3e2979/00000000000000007735a6b9/30/l?subset_id=2&fvd=n7&v=3) format("woff2"),
+    url(https://use.typekit.net/af/3e2979/00000000000000007735a6b9/30/d?subset_id=2&fvd=n7&v=3) format("woff"),
+    url(https://use.typekit.net/af/3e2979/00000000000000007735a6b9/30/a?subset_id=2&fvd=n7&v=3) format("opentype");
+    font-style: normal;
+}
+@font-face{
+    font-family:bjpg;
+    src:url(https://use.typekit.net/af/065c26/00000000000000007735a6c8/30/l?subset_id=2&fvd=i5&v=3) format("woff2"),
+    url(https://use.typekit.net/af/065c26/00000000000000007735a6c8/30/d?subset_id=2&fvd=i5&v=3) format("woff"),
+    url(https://use.typekit.net/af/065c26/00000000000000007735a6c8/30/a?subset_id=2&fvd=i5&v=3) format("opentype");
+    font-weight:500;
+    font-style:italic;font-stretch:normal;
+    font-display:auto;
+}
+@font-face{
+    font-family:bjpg;
+    src:url(https://use.typekit.net/af/54d47a/000000000000000000017750/27/l?subset_id=2&fvd=n4&v=3) format("woff2"),
+    url(https://use.typekit.net/af/54d47a/000000000000000000017750/27/d?subset_id=2&fvd=n4&v=3) format("woff"),
+    url(https://use.typekit.net/af/54d47a/000000000000000000017750/27/a?subset_id=2&fvd=n4&v=3) format("opentype");
+    font-weight:400;
+    font-style:normal;
+    font-stretch:normal;
+    font-display:auto;
+}
+@font-face{
+    font-family:bjpg;
+    src:url(https://use.typekit.net/af/ac24c0/00000000000000007735a6c3/30/l?subset_id=2&fvd=n5&v=3) format("woff2"),
+    url(https://use.typekit.net/af/ac24c0/00000000000000007735a6c3/30/d?subset_id=2&fvd=n5&v=3) format("woff"),
+    url(https://use.typekit.net/af/ac24c0/00000000000000007735a6c3/30/a?subset_id=2&fvd=n5&v=3) format("opentype");
+    font-weight:500;
+    font-style:normal;
+    font-stretch:normal;
+    font-display:auto;
+}
+@font-face{
+    font-family:bjpg;
+    src:url(https://use.typekit.net/af/f7ef3a/00000000000000007735a6cd/30/l?subset_id=2&fvd=n6&v=3) format("woff2"),
+    url(https://use.typekit.net/af/f7ef3a/00000000000000007735a6cd/30/d?subset_id=2&fvd=n6&v=3) format("woff"),
+    url(https://use.typekit.net/af/f7ef3a/00000000000000007735a6cd/30/a?subset_id=2&fvd=n6&v=3) format("opentype");
+    font-weight:600;
+    font-style:normal;
+    font-stretch:normal;
+    font-display:auto;
+} 
+@font-face{font-family:bjpg;src:url(https://use.typekit.net/af/3e2979/00000000000000007735a6b9/30/l?subset_id=2&fvd=n7&v=3) format("woff2"),
+    url(https://use.typekit.net/af/3e2979/00000000000000007735a6b9/30/d?subset_id=2&fvd=n7&v=3) format("woff"),
+    url(https://use.typekit.net/af/3e2979/00000000000000007735a6b9/30/a?subset_id=2&fvd=n7&v=3) format("opentype");
+    font-weight:700;
+    font-style:normal;
+    font-stretch:normal;
+    font-display:auto;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:bjpg;
+    font-style: normal;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding-bottom: 15px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.mainContainer {
+    width: 100%;
+}
+
+.sidebarContent {
+    width: 19%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 0px 25px;
+}
+
+.logo {
+    font-family: bjpg;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 30px;
+    padding: 50px 0 40px 0;
+}
+
+.logo a {
+    color: #012B55;
+}
+
+.sidebarMenuTitle {
+    padding-bottom: 12px;
+}
+
+.sidebarMenuTitle a {
+    color: #012B55;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.sidebarMenuSubTitle {
+    padding-bottom: 7px;
+}
+
+.sidebarMenuSubTitle a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #41576D;
+}
+
+.sidebarMenuSubTitle a:hover {
+    color: #011b35;
+}
+
+.contactIcons {
+    margin-top: 12px;
+}
+
+.contactIcons li {
+    padding: 7px 5px 5px 5px;
+    width: 31px;
+    height: 31px;
+    background-color: #b7c3d04f;
+    border-radius: 20px;
+    margin: 0 7px 20px 0px;
+}
+
+.contactIcons li:hover {
+    background-color: #b7c3d0c8;
+}
+
+.mainContent {
+    width: 77%;
+    padding-right: 6%;
+}
+
+.introduce {
+    padding: 100px 0;
+    background-color: #F7F8F9;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7px;
+    padding: 110px 11%;
+}
+
+.introduce h1 {
+    color: #012B55;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.introduce p {
+    color: #597188;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.imageBox {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+.imgWithCover {
+    width: calc((100% - 7px)/2);
+}
+
+.imgWithCover a {
+    display: flex;
+    position: relative;
+}
+
+.coverContainer {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: #002a5ace;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.coverContainer h5 {
+    font-size: 15px;
+    font-style: italic;
+    color: #ffffff;
+}
+
+.coverContainer h6 {
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.imgWithCover img {
+    width: 100%;
+    height: 100%; 
+}
+
+.imgWithCoverr:hover{
+    opacity: 10%;
+    transition: opacity 0.17s ease;
+}
+  
+.imgWithCover:hover .coverContainer {
+    opacity: 100%;
+    transition: opacity 0.17s ease;
+}
+
+.align-center {
+    justify-content: center
+}
+
+.footer {
+    padding: 40px 0 60px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.footerText {
+    color: #597188;
+    font-family: bjpg;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.backToTop {
+    position: fixed;
+    bottom: 3%;
+    right: 1%;
+    padding: 10px;
+    z-index: 99;
+    cursor: pointer;
+}
+
+.backToTop button {
+    width: 55px;
+    height: 55px;
+    border-style: none;
+    background-color: #b7c3d04f;
+    opacity: 100%;
+    border-radius: 7px;
+}
+
+.backToTop button:hover {
+    background-color: #b7c3d0c8;
+}
+
+.backToTop svg {  
+    width: 50%;
+}
